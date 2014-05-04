@@ -36,10 +36,7 @@
 <ul id="home" title="Terra Nova" selected="true">
 	<li><a href="#preparacao">Preparação</a></li>
 	<li><a href="#turno">Sequência do Turno</a></li>
-	<li><a href="#lembretes">Lembretes (FAQ)</a></li>
 	<li><a href="#fim">Fim de Jogo</a></li>
-	<!-- <li><a href="#regras">Regras</a></li> -->
-	<li><a href="#variantes">Variantes</a></li>
 
 </ul>
 
@@ -67,99 +64,68 @@
 
 <div id="turno" class="panel" title="Sequência do Turno">
 	
-		<li> Todos as fichas de AP voltam para todos os jogadores.</li> <br>
+		<li> No turno do jogador, ele deve executar três ações. Somente se uma segunda ou
+		terceira ação não seja possível é permitido não executar aquele ação. A primeira ação
+		o jogador deve sempre mover um de seus pioneiros. As duas próximas ações restantes
+		podem ser uma combinação de mover pioneiros e/ou jogar uma pedra de borda.</li> <br>
 		
-		<li> Mova o contador de turno um quadrado no tabuleiro de aventura. Quando ele chegar
-		em algum quadrado de evento, leia em voz alta o evento e aplique seus efeitos 
-		imediatamente.</li> <br>
+		<li> Se o jogador não puder mover um pioneiro como a primeira ação, esse jogador deve
+		passar e o próximo jogador deve jogar.</li> <br>
 		
-		<li> Cada gangue faz um round em cada turno. O primeiro jogador faz um round primeiro,
-		então as outras gangues fazem seus rounds na ordem do relógio. </li> <br>
+		<li> Mover um pioneiro: É possível mover um pioneiro em uma das 6 posições possíveis
+		em linha reta tão longe quanto o jogador queira (mas deve ser pelo menos um espaço).
+		O jogador não pode pular outros pioneiros ou pedras de borda. Não é possível mover
+		 um pioneiro para um lugar onde ele já estava. </li> <br>
 		
-		<li> Um round de gangue é dividido em 4 fases que devem ser jogadas na ordem: 
-			<h5>Comprar uma carta de Arcana - Compre uma carta de Arcana e adicione-a para 
-			sua mão. </h5>
-			
-			<h5> Mova um miliciano - Indique qual miliciano você deseja mover e role um dado:
-			se você tirar um 6, o miliciano não move. Caso contrário, o miliciano pode mover
-			até o número de espaços indicados na rolagem. </h5>
-			
-			<h5> Ative personagens - Ative seus personagens um de cada vez. Personagens 
-			gastam AP para mover, abrir baús, atacar outros personagens e usar habilidades. 
-			Você também pode escolher jogar cartas de Arcana e/ou usar uma carta de missão.
-			Usar uma carta de missão custa 3 AP. Cartas de Arcana não podem ser usadas para
-			ajudar um miliciano.
-			</h5>
-			
-			<h5> Anuncie o final do Round - Quando você tiver ativado todos os personagens
-			que você deseja, seu turno está terminado e o jogador da sua esquerda pode jogar.
-			</h5>
-			
-			
-		 
-		 <li> Logo que um jogador encontre uma solução, ele pode fazer um lance em voz alta do número de movimentos
-		 que ele acha que são necessários e virar a ampulheta. Os outros jogadores terão agora 1 minuto para
-		 fazer seus lances. Não há ordem para os lances e os jogadores podem fazer mais de um lance (desde que
-		 esse lance não seja um lance maior do que o número do lance anterior que esse jogador fez). Outros jogadores
-		 podem fazer lances com números maiores do que o número de lances já feitos. </li> <br>
-		 
-		 <li> Quando a areia da ampulheta caiu completamente, o jogador que fez o lance de menor número deve jogar.
-		  Ele move os robôs como ele planejou, contado seus movimentos em voz alta. Se o número de movimentos que
-		  ele fizer são iguais ou menores do número lançado, ele pega a ficha e o turno está terminado. Se ele falha,
-		  ele deve retornar os robôs que ele moveu para suas posições iniciais (fichas quadradas coloridas) e o turno
-		  passa para o jogador com o próximo número. Em caso de lances iguais, o jogador que estiver atrás na
-		  pontuação (possuir menos fichas) tem precedência. Esse processo continua até algum jogador tiver algum
-		  sucesso. Se ninguém conseguir, ninguém pega a ficha, que é retornada e embaralhada na mesa. </li> <br>
-		  
-		  <li> Assim que um turno acabar, um outro começa. Coloque as fichas coloridas embaixo dos robôs que foram 
-		  movidos, pega uma nova ficha de alvo e coloque-a na peça central, etc. </li>
+		<IMG SRC="imagens/terra_nova_1.png" ALT="Movimento"> <br>
+
+		
+		<li> Colocar uma pedra de borda: O jogador pode colcoar uma pedra de boarda
+		depois de mover um pioneiro. O jogador deve colocá-la em um dos espaços adjacentes
+		a um pioneiro que acabou de ser movido. Se o jogador move dois pioneiros, e para a 
+		terceira ação, coloca uma pedra de borda, a pedra deve estar adjacente ao primeiro
+		ou segundo pioneiro colocado. Se o jogador somente moveu 1 pioneiro e colocou
+		duas pedras de borda, ambas devem estar adjacentes ao pioneiro que foi movido. </li><br>
+		
+					<IMG SRC="imagens/terra_nova_2.png" ALT="Pedra"> <br>
+
+		<h2> Territórios </h2>
+		
+		Um território é formado logo que uma parte de uma ilha consistindo não mais do que
+		3 diferentes tipos de terrenos estejam cercados. Quando um jogador forma um território
+		colocando uma pedra de borda, a pontuação é calculada imediatamente.
+		
+		<h2> Pontuação </h2>
+		
+         <li> Território com 3 diferentes terrenos = número de espaços no território</li>
+                  <li> Território com 2 diferentes terrenos = 2x o número de espaços no território</li>		
+         <li> Território com 1 terreno = 3x o número de espaços no território</li>		
+		
+		Somente o jogador com mais pioneiros nesse território ganha os pontos. Em caso de empate,
+		os pontos são divididos e arredondados para baixo se necessário.
+		<br>
+		Após a pontuação, remova os pioneiros do território que acabou de ser pontuado.
+		
+		<br>
+		
+		 					<IMG SRC="imagens/terra_nova_3.png" ALT="Pontuacao"> <br>
+
+		
 </div>
 
 <div id="fim" class="panel" title="Fim de Jogo">
 
-	    Cada tabuleiro de aventura descreve quando o jogo terminará. Normalmente quando o 
-	    contador alcança o final da trilha de contador de turno. <br>
-	    Nessa hora, todos os jogadores devem converter os tesouros que eles conseguiram
-	    carregar para fora do distrito em ducatos (dinheiro). Qualquer tesouro carregado
-	    por personagens que ficaram no distrito não valem nada.<br>
-	    Cada jogador perde 3 ducatos para cada um dos seus personagens que falharam em
-	    deixar o distrito antes do final do jogo.<br>
-	    O jogador com mais ducatos vence o jogo.
+	    O jogo termina quando: <br>
+	    
+	    <li> Toda a terra está completamente dividida em territórios ou</li>
+	    <li> Quando somente um jogador pode mover ou</li>
+	    <li> Quando a pilha de pioneiros de um jogador acaba.</li>
+	    
+	    O jogador que possuir mais pontos é o vencedor.
 	   
 	
 </div>
 
-<div id="regras" class="panel" title="Regras">
-
-	
-</div>
-
-<div id="variantes" class="panel" title="Variantes">
-		<h2> Dinheiro escondido </h2>
-		 Os jogadores não devem mostrar seu dinheiro para os outros jogadores.
-		 
-		 <h1> Regras da expansão </h1>
-		 
-		 <h2> Empate em combates (regra da expansão)</h2>
-		 Se dois jogadores empatarem em um combate, o atacante não ganha automaticamente
-		 o combate. Ao invés disso, cada jogador soma os valores de todos os dados que ele
-		 rolou e soma-se qualquer bônus de habilidades e/ou cartas de Arcana. O personagem
-		 com maior total vence. Em caso de empate, o atacante vence.
-		 
-		 <h2> Número de cartas de Arcana em um combate </h2>
-		 Jogadores não mais limitados a jogar somente uma carta de Arcana em um combate.
-		 Cada jogador pode jogar qualquer número de cartas de Arcana em um combate. O atacante
-		 ainda deve jogar suas cartas primeiro (abertas), antes do defensor.
-		 
-		 <h2> Movimento de personagens da mesma gangue e troca de tesouros e/ou equipamentos </h2>
-		 Quando um personagem move, agora ele pode passar por um espaço que é ocupado
-		 por um outro personagem da mesma gangue. Entretanto, um personagem não pode
-		 terminar seu movimento no mesmo espaço que outro personagem. Quando um personagem
-		 passa através de um espaço ocupado por outro membro da mesma gangue os dois
-		 personagens podem trocar qualquer ou todos os tesouros e/ou equipamentos que eles
-		 carregam.
-	
-</div>
 
 </body>
 </html>
