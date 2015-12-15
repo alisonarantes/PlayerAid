@@ -14,12 +14,12 @@
     </description>
 	
 	<platform name="android">
-		<icon src="original_48x48.png" platform="android" qualifier="ldpi" />
+		<!-- <icon src="original_48x48.png" platform="android" qualifier="ldpi" />
 		<icon src="original_72x72.png" platform="android" qualifier="mdpi" />
 		<icon src="original_96x96.png" platform="android" qualifier="hdpi" />
-		<icon src="original_144x144.png" platform="android" qualifier="xhdpi" />
+		<icon src="original_144x144.png" platform="android" qualifier="xhdpi" /> -->
 		<icon src="original_192x192.png" platform="android" qualifier="xxhdpi" />
-		<icon src="original.png" platform="android" qualifier="fr-xxhdpi" />
+
 		
 		<splash src="splash.png" platform="android" qualifier="ldpi" />
 		<splash src="splash.png" platform="android" qualifier="mdpi" />
