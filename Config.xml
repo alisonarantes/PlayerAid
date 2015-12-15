@@ -18,7 +18,7 @@
     </author>
 	
 	<platform name="android">
-		<icon src="icon" platform="android" density="ldpi" />
+		<icon src="icon.png" platform="android" qualifier="ldpi" />
 		<splash src="SplashScree.png" platform="android" qualifier="lhdpi" />
 	</platform>
 
