@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "0.1.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Player Aid</name>
+
+    <description>
+        Resumos de regras de jogos de tabuleiro em português do Brasil.
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Hardeep Shoker 
+    </author>
+	
+	<platform name="android" />
+	
+	<icon src="PlayerAid.png" />
+	<splash src="PlayerAid.png" />
+
+</widget>

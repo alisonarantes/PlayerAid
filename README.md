@@ -1,3 +1,3 @@
 # PlayerAid
 
-App para Android que possui regras resumidas em português alguns jogos de tabuleiro.
+App para Android que possui regras resumidas em português de alguns jogos de tabuleiro.
