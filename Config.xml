@@ -18,7 +18,7 @@
     </author>
 	
 	<platform name="android">
-		<icon src="meeple.png" platform="android" density="ldpi" />
+		<icon src="icon" platform="android" density="ldpi" />
 		<splash src="SplashScree.png" platform="android" qualifier="lhdpi" />
 	</platform>
 
