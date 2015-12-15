@@ -12,20 +12,23 @@
     <description>
         Resumos de regras de jogos de tabuleiro em portugues do Brasil.
     </description>
-
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Folken Master 
-    </author>
 	
 	<platform name="android">
 		<icon src="icon.png" platform="android" qualifier="ldpi" />
-		<icon src="mdpi.png" platform="android" qualifier="mdpi" />
-		<icon src="hdpi.png" platform="android" qualifier="hdpi" />
-		<icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
-		<icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
-		<icon src="fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+		<icon src="icon.png" platform="android" qualifier="mdpi" />
+		<icon src="icon.png" platform="android" qualifier="hdpi" />
+		<icon src="icon.png" platform="android" qualifier="xhdpi" />
+		<icon src="icon.png" platform="android" qualifier="xxhdpi" />
+		<icon src="icon.png" platform="android" qualifier="fr-xxhdpi" />
+		
+		<splash src="splash.png" platform="android" qualifier="ldpi" />
+		<splash src="splash.png" platform="android" qualifier="mdpi" />
+		<splash src="splash.png" platform="android" qualifier="hdpi" />
+		<splash src="splash.png" platform="android" qualifier="xhdpi" />
+		<splash src="splash.png" platform="android" qualifier="fr-xhdpi" />
+		<splash src="splash.png" platform="android" qualifier="port-xxhdpi" />
+		<splash src="splash.png" platform="android" qualifier="land-xxhdpi" />
 
-		<splash src="SplashScreen.png" platform="android" qualifier="lhdpi" />
 	</platform>
 
 </widget>
