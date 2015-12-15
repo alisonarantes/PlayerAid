@@ -2,7 +2,7 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
-        versionCode = "10" 
+        versionCode = "1" 
         version     = "0.1.0" >
 
     <!-- versionCode is optional and Android only -->
@@ -18,8 +18,8 @@
     </author>
 	
 	<platform name="android">
-		<icon src="PlayerAid.png" gap:platform="android" gap:density="ldpi" />
-		<splash src="PlayerAid.png" gap:platform="android" gap:qualifier="lhdpi" />
+		<icon src="meeple.png" gap:platform="android" gap:density="ldpi" />
+		<splash src="SplashScree.png" gap:platform="android" gap:qualifier="lhdpi" />
 	</platform>
 
 </widget>
