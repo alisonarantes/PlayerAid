@@ -14,12 +14,11 @@
     </description>
 	
 	<platform name="android">
-		<icon src="icon.png" platform="android" qualifier="ldpi" />
-		<icon src="icon.png" platform="android" qualifier="mdpi" />
-		<icon src="icon.png" platform="android" qualifier="hdpi" />
-		<icon src="icon.png" platform="android" qualifier="xhdpi" />
-		<icon src="icon.png" platform="android" qualifier="xxhdpi" />
-
+		<icon src="android/icon.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="android/icon.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="android/icon.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="android/icon.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="android/icon.png" gap:platform="android" gap:density="xxhdpi" />
 	</platform>
 
 </widget>
