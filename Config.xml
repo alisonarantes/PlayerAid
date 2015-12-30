@@ -7,11 +7,13 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Player Aid</name>
+    <name>PlayerAid</name>
 
     <description>
         Resumos de regras de jogos de tabuleiro em português do Brasil.
     </description>
+    
+    <icon src="icon.png" />
 	
 	<platform name="android">
 		<icon src="android/icon.png" gap:platform="android" gap:density="ldpi" />
