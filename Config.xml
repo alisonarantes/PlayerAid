@@ -10,24 +10,16 @@
     <name>Player Aid</name>
 
     <description>
-        Resumos de regras de jogos de tabuleiro em portugues do Brasil.
+        Resumos de regras de jogos de tabuleiro em português do Brasil.
     </description>
 	
 	<platform name="android">
-		<!-- <icon src="original_48x48.png" platform="android" qualifier="ldpi" />
-		<icon src="original_72x72.png" platform="android" qualifier="mdpi" />
-		<icon src="original_96x96.png" platform="android" qualifier="hdpi" />
-		<icon src="original_144x144.png" platform="android" qualifier="xhdpi" /> -->
-		<icon src="original_192x192.png" platform="android" qualifier="xxhdpi" />
+		<icon src="icon.png" platform="android" qualifier="ldpi" />
+		<icon src="icon.png" platform="android" qualifier="mdpi" />
+		<icon src="icon.png" platform="android" qualifier="hdpi" />
+		<icon src="icon.png" platform="android" qualifier="xhdpi" />
+		<icon src="icon.png" platform="android" qualifier="xxhdpi" />
 
-		
-		<splash src="splash.png" platform="android" qualifier="ldpi" />
-		<splash src="splash.png" platform="android" qualifier="mdpi" />
-		<splash src="splash.png" platform="android" qualifier="hdpi" />
-		<splash src="splash.png" platform="android" qualifier="xhdpi" />
-		<splash src="splash.png" platform="android" qualifier="fr-xhdpi" />
-		<splash src="splash.png" platform="android" qualifier="port-xxhdpi" />
-		<splash src="splash.png" platform="android" qualifier="land-xxhdpi" />
 	</platform>
 
 </widget>
