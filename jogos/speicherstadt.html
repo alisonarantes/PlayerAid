@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html manifest=>
+<head>
+  <title>Regras</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="icon" type="image/png" href="../iui/iui-favicon.png">
+  <link rel="apple-touch-icon" href="../iui/iui-logo-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="../iui/iui.css" type="text/css" />
+  <link rel="stylesheet" title="Default" href="../iui/t/default/default-theme.css"  type="text/css"/>
+  <link rel="stylesheet" href="../css/iui-panel-list.css" type="text/css" />
+  <script type="application/x-javascript" src="../iui/iui.js"></script>
+</head>
+<body>
+<div class="toolbar">
+    <h1 id="pageTitle"></h1>
+    <a id="backButton" class="button" href="#"></a>
+    <a class="button" href="../index.html" target="_self">Jogos</a>
+</div>
+
+<!-- EDITAR A PARTIR DESSA LINHA -->
+<!-- ------------------------------------------------------ -->
+
+<!-- MENU DE OPCOES -->
+<ul id="home" title="Speicherstadt" selected="true">
+	<li><a href="#1">Preparação</a></li>
+	<li><a href="#2">Sequência do Turno</a></li>
+	<li><a href="#3">Final do Jogo</a></li>
+    <li><a href="#4">Alertas</a></li>
+</ul>
+
+
+<!-- TEXTO DE CADA OPCAO -->
+<div id="1" class="panel" title="Preparação">
+    <h4>
+        Preparação
+    </h4>
+    <h5>
+        Coloque os <font color="green">54</font> cubos de recursos (9 de cada cor) no saco. <br>
+        Faça um estoque de moedas de <font color="green">metal</font> e dê 5 moedas para cada jogador. <br>
+        Cada jogador pega uma carta de Market Hall e <font color="green">5</font> trabalhadores de uma cor e coloca um dos trabalhadores no espaço
+        '0' da trilha de pontos do tabuleiro. <br>
+        Ordene as cartas de Trade de acordo com o verso das cartas (<font color="green">24</font> cartas de Inverno 'A', <font color="green">25</font> cartas de
+        Primavera 'B', <font color="green">25</font> cartas de Verão 'C', <font color="green">29</font> cartas de Outono 'D', 1 carta de quarto incêndio 'E'). <br>
+        <font color="green">NOTA: Mantenha as cartas de 'Start' e 'Break' de lado por agora com 2 trabalhadores cinzas.</font> <br>
+        Remova da pilha 'D'... 2-jogadores: 'Port', 'Fireman 3', <font color="green">'Mayor', 'Truck'</font>; 3 ou 5-jogadores: 'Boatsmen Church',
+        'Fireman 3', 'Mayor', 'Truck'; 4-jogadores: Nenhuma. <br>
+        Embaralhe cada pilha e faça uma única pilha de compra virada para baixo. Cartas 'A' no topo, até a carta 'E'
+        no fundo. <br>
+        O jogador que mais recentemente esteve em Hamburgo é o primeiro jogador e começa com a <font color="green">carta 'Start'</font>.
+    </h5>
+</div>
+
+<div id="2" class="panel" title="Sequência do Turno">
+    <h4>
+        Sequência do Turno
+    </h4>
+    <h5>
+        As regras da expansão estão em <font color="green"> verde. </font> <br>
+   
+        Os jogadores jogam todas as fases de um turno juntos. <br> <br>
+        
+        FASE 1 - Fornecimento (Supply): Compre 3/4/5/6 cartas para 2/3/4/5 jogadores e coloque-as viradas para cima
+        da esquerda para a direita nos espaços de água. <br>
+        <ol type="a">
+            <li>
+                <font color="green"> Compre o mesmo número de cartas para dispó-las viradas para cima acima do tabuleiro de jogo. </font>
+            </li>
+            <li>
+                Para cada Navio comprado, compre 3 cubos de recursos do saco e coloque-os no Navio.
+            </li>
+            <li>
+                Incêndio foi comprado? Some os valores dos Bombeiros. O jogador com a maior soma ganha o valor da carta de incêndio em pontos positivos.
+                A menor soma ganha o valor da carta de incêndio em pontos negativos. Empate? Cada jogador empatado ganha o mesmo número de pontos. Todos empatados?
+                Ninguém ganha pontos.<br>
+                <font color="red"> NOTA: Depois do incêndio, descarte a carta e compre uma nova no lugar.</font>
+            </li>
+        </ol>
+        
+        FASE 2 - Demanda (Demand): Iniciando com o primeiro jogador, cada jogador na sua vez coloca 1 trabalhador acima de uma carta
+        <font color="green"> ou reserva 1 carta </font>, até cada jogador tiver colocado os seus <font color="green">4</font> trabalhadores.
+        <ol type="a">
+            <li>
+                O jogador deve colocar trabalhador no espaço mais baixo não ocupado da construção; Não pode passar.
+            </li>
+            <li>
+                Pode ter mais do que 1 de seus trabalhadores por construção, mas não mais do que 8 trabalhadores por construção.
+            </li>
+            <li>
+                <font color="green"> Reservar 1 carta acima do tabuleiro colocando um trabalhador nela e movendo a carta para o canto direito do tabuleiro. Coloque as próximas
+                cartas reservadas acima desta em ordem. </font>
+            </li>
+        </ol>
+        
+        FASE 3 - Compra (Purchase): Avalie 1 carta por vez, da esquerda para a direita.
+         <ol type="a">
+            <li>
+                O jogador cujo trabalhador está imediatamente aciima da carta tem 2 escolhas: COMPRAR ou PASSAR.
+                <ol type="1">
+                    <li>
+                        COMPRAR: O jogador paga moedas para o suprimento igual ao número de trabalhadores que estão acima
+                        da carta e pega aquela carta.<br>
+                        <font color="red"> NOTA: Os trabalhadores restantes retornam para os jogadores quando a carta é comprada.</font>
+                    </li>
+                    <li>
+                        PASSAR: Se o jogador não puder ou não quiser COMPRAR a carta, ele retorna o seu trabalhador e o próximo jogador da fila escolhe (
+                        COMPRAR ou PASSAR).
+                    </li>
+                  </ol>
+            </li>
+            <li>
+                Ninguém quer a carta? Descarte-a.   
+            </li>
+            <font color="green">
+            <li>
+                Quando todas as cartas das construções forem avaliadas, vá para as cartas reservadas e avalia-as começando com a carta mais abaixo.
+                O jogador que reservou aquela carta pode comprá-la por um custo igual ao número de cartas reservadas na coluna de cartas reservadas. 
+                Se ele passar, a carta é descartada.
+            </li>
+             <li>
+                Quando a fase de COMPRA terminar, descarte quaisquer cartas que sobraram no canto superior do tabuleiro (área para as cartas disponíveis
+                para reserva).
+            </li> </font>
+        </ol>
+        
+        FASE 4 - Carregamento (Loading): Esta fase não acontece até alguém comprar a primeira carta de Navio (que aparecerá a partir da Primavera B).
+        <ol type="a">
+            <li>
+                Donos de navios devem descarregar. Para descarregar um Navio, você tem 4 escolhas para cada cubo (recurso)...
+                <ol type="1">
+                    <li>
+                        CONTRATO: Coloque um cubo em espaço que da carta de contrato que bata com a cor do recurso. Uma vez que o cubo foi colocado na carta
+                        de contrato, ele não pode ser removido.                        
+                    </li>
+                    <li>
+                        MERCADOR: Usando 1 de suas cartas de Negociante (Trader), ganhe 1 Moeda por cada recurso igual ao recurso da carta de Negociante.
+                        <font color="red"> Ganhe a moeda do suprimento; O Cubo (recurso) utilizado vai para o ESTOQUE e não para o saco. </font>                       
+                    </li>
+                    <li>
+                        ARMAZÉM (Warehouse): Coloque cubos no (ou remova do) Armázem para turnos posteriores. 4 Cubos no máximo, a qualquer hora.
+                    </li>
+                    <li>
+                        CASA DE COMÉRCIO (Market Hall): Faça 1 das 3 coisas...
+                        
+                        <ol type="a">
+                            <li>
+                                CONVERTER: Coloque 3 cubos no estoque e peque um cubo do estoque, não do saco.
+                            </li>
+                            <li>
+                                VENDER: Coloque quaisquer 2 cubos no estoque e pegue 1 Moeda do estoque.
+                            </li>
+                            <li>
+                                MANTER: Coloque 1 cubo (no máximo) no Salão de comércio (Market Hall) para turnos posteriores.
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            <li>
+                Cubos não utilizados expiram e são colocados no estoque.
+            </li>    
+        </ol>        
+        
+        FASE 5 - Rendimentos (Income): 
+            
+            <ol type="a">
+                <li>
+                    Cada jogador ganha <font color="green">2 moedas</font>. Você ganha uma <font color="green">terceira</font> moeda se você não comprou NENHUMA carta neste turno.<br>
+                    <font color="red"> O dono da carta Banco (Bank) ganha 1 moeda extra. Moedas não são limitadas. Use algum material 
+                    substituto se as moedas acabarem. </font>
+                </li>
+                <li>
+                    Passe <font color="green">a carta 'Start'</font> para o jogador da esquerda e comece um novo turno.
+                </li>
+            </ol>
+        </ol>
+    </h5>
+</div>
+
+
+<table border="1">
+<tr>
+<td>linha 1, célula 1</td>
+<td>linha 1, célula 2</td>
+</tr>
+<tr>
+<td>linha 2, célula 1</td>
+<td>linha 2, célula 2</td>
+</tr>
+</table>
+
+<div id="4" class="panel" title="Alertas">
+    <h3>
+        Preparação
+        <h4>
+            <font color="red">
+               Remova da pilha 'D'... 2-jogadores: 'Port', 'Fireman 3', <font color="green">'Mayor', 'Truck'</font>; 3 ou 5-jogadores: 'Boatsmen Church',
+              'Fireman 3', 'Mayor', 'Truck'; 4-jogadores: Nenhuma.
+            </font>
+        </h4>
+    </h3>
+    <h3>
+        Turno - FASE 1
+        <h4>
+            <font color="red">
+               
+                Incêndio foi comprado? Some os valores dos Bombeiros. O jogador com a maior soma ganha o valor da carta de incêndio em pontos positivos.
+                A menor soma ganha o valor da carta de incêndio em pontos negativos. Empate? Cada jogador empatado ganha o mesmo número de pontos. Todos empatados?
+                Ninguém ganha pontos.<br> <br>
+                NOTA: Depois do incêndio, descarte a carta e compre uma nova no lugar.
+            </font>
+        </h4>
+    </h3>
+    <h3>
+        Turno - FASE 2
+        <h4>
+            <font color="red">
+                Jogadores não podem passar. <br> <br>
+                Jogadores podem ter mais de um trabalhador por construção.
+                
+            </font>
+        </h4>
+    </h3>
+    
+</div>  
+
+</body>
+</html>
