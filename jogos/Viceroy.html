@@ -93,7 +93,7 @@
         
 </div>
 
-<div id="pontuacao" class="panel" title="Ficha de Pontuação">
+<div id="pontuacao" class="panel" title="VICEROY">
 <script type="text/javascript">
 function calc1()
 {
@@ -126,26 +126,24 @@ var sum = parseInt(document.getElementById('val14').value) + parseInt(document.g
 document.getElementById('total4').value = sum;
 }
 </script>
-
-<table id="sum_table" width="100%">
-
- 
+ <table id="sum_table" style="width=100%">
   <tr>
-    <td> NOME </td> 
-    <td> <input type="text" id="j1" value="J1" size=""/></td>
-    <td> <input type="text" id="j2" value="J2" size=""/></td>
-    <td> <input type="text" id="j3" value="J3" size=""/></td>
-    <td> <input type="text" id="j4" value="J4" size=""/></td>
+    <th> NOME </th>
+    <td> <input type="text" id="j1" value="j1" size=""/></td>
+    <td> <input type="text" id="j2" value="j2" size=""/></td>
+    <td> <input type="text" id="j3" value="j3" size=""/></td>
+    <td> <input type="text" id="j4" value="j4" size=""/></td>
+  </tr>
   
   <tr> 
-    <td> <img src="imagens\viceroy1.jpg" width="70%"></img> </td>
+    <td> <img src="imagens\viceroy1.jpg" width="70%"> </img> </td>
     <td> <input onblur="calc1()" type="text" id="val11" value="" size=""/></td>
     <td> <input onblur="calc2()" type="text" id="val12" value="" size=""/></td>
     <td> <input onblur="calc3()" type="text" id="val13" value="" size=""/></td>
     <td> <input onblur="calc4()" type="text" id="val14" value="" size=""/></td>
   </tr>
   <tr>
-    <td> <img src="imagens\viceroy2.jpg" width="70%"> </td>
+    <td> <img src="imagens\viceroy2.jpg" width="70%"> </img> </td>
     <td><input onblur="calc1()" type="text" id="val21" value="" size=""/></td>
     <td><input onblur="calc2()" type="text" id="val22" value="" size=""/></td>
     <td><input onblur="calc3()" type="text" id="val23" value="" size=""/></td>
@@ -193,11 +191,11 @@ document.getElementById('total4').value = sum;
     <td><input onblur="calc4()" type="text" id="val74" value="" size=""/></td>
   </tr>
   <tr>
-     <td> TOTAL </td>
-     <td><input type="text" id="total1" value="" /></td>
-     <td><input type="text" id="total2" value="" /></td>
-     <td><input type="text" id="total3" value="" /></td>
-     <td><input type="text" id="total4" value="" /></td>
+     <th> TOTAL </th>
+     <td><input type="text" id="total1" value="" readonly /></td>
+     <td><input type="text" id="total2" value="" readonly /></td>
+     <td><input type="text" id="total3" value="" readonly /></td>
+     <td><input type="text" id="total4" value="" readonly /></td>
   </tr>
  </table>
 
