@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html manifest=>
+<head>
+  <title>Regras</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="icon" type="image/png" href="../iui/iui-favicon.png">
+  <link rel="apple-touch-icon" href="../iui/iui-logo-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="../iui/iui.css" type="text/css" />
+  <link rel="stylesheet" title="Default" href="../iui/t/default/default-theme.css"  type="text/css"/>
+  <link rel="stylesheet" href="../css/iui-panel-list.css" type="text/css" />
+  <script type="application/x-javascript" src="../iui/iui.js"></script>
+  
+</head>
+<body>
+
+    <div class="toolbar">
+        <h1 id="pageTitle"></h1>
+        <a id="backButton" class="button" href="#"></a>
+        <a class="button" href="../index.html" target="_self">Jogos</a>
+    </div>
+
+    
+<ul id="home" title="7 Wonders" selected="true">
+    <li><a href="#pontuacao">Ficha de Cálculo da Pontuação</a></li>
+</ul>
+
+
+<div id="pontuacao" class="panel" title="7 WONDERS">
+
+<script type="text/javascript">
+function calc1()
+{
+var sum = parseInt(document.getElementById('val11').value) + parseInt(document.getElementById('val21').value) + parseInt(document.getElementById('val31').value) + parseInt(document.getElementById('val41').value)+ parseInt(document.getElementById('val51').value) + parseInt(document.getElementById('val61').value) + parseInt(document.getElementById('val71').value) + parseInt(document.getElementById('val81').value);
+document.getElementById('total1').value = sum;
+}
+</script>
+
+<script type="text/javascript">
+function calc2()
+{
+var sum = parseInt(document.getElementById('val12').value) + parseInt(document.getElementById('val22').value) + parseInt(document.getElementById('val32').value) + parseInt(document.getElementById('val42').value)+ parseInt(document.getElementById('val52').value) + parseInt(document.getElementById('val62').value) + parseInt(document.getElementById('val72').value) + parseInt(document.getElementById('val82').value);
+document.getElementById('total2').value = sum;
+}
+
+</script>
+
+<script type="text/javascript">
+function calc3()
+{
+var sum = parseInt(document.getElementById('val13').value) + parseInt(document.getElementById('val23').value) + parseInt(document.getElementById('val33').value) + parseInt(document.getElementById('val43').value)+ parseInt(document.getElementById('val53').value) + parseInt(document.getElementById('val63').value) + parseInt(document.getElementById('val73').value) + parseInt(document.getElementById('val83').value);
+document.getElementById('total3').value = sum;
+}
+</script>
+
+<script type="text/javascript">
+function calc4()
+{
+var sum = parseInt(document.getElementById('val14').value) + parseInt(document.getElementById('val24').value) + parseInt(document.getElementById('val34').value) + parseInt(document.getElementById('val44').value)+ parseInt(document.getElementById('val54').value)+ parseInt(document.getElementById('val64').value)+ parseInt(document.getElementById('val74').value) + parseInt(document.getElementById('val84').value);
+document.getElementById('total4').value = sum;
+}
+</script>
+
+
+<script type="text/javascript">
+function calc5()
+{
+var sum = parseInt(document.getElementById('val15').value) + parseInt(document.getElementById('val25').value) + parseInt(document.getElementById('val35').value) + parseInt(document.getElementById('val45').value)+ parseInt(document.getElementById('val55').value)+ parseInt(document.getElementById('val65').value)+ parseInt(document.getElementById('val75').value) + parseInt(document.getElementById('val85').value);
+document.getElementById('total4').value = sum;
+}
+</script>
+
+<script type="text/javascript">
+function calc6()
+{
+var sum = parseInt(document.getElementById('val16').value) + parseInt(document.getElementById('val26').value) + parseInt(document.getElementById('val36').value) + parseInt(document.getElementById('val46').value)+ parseInt(document.getElementById('val56').value)+ parseInt(document.getElementById('val66').value)+ parseInt(document.getElementById('val76').value) + parseInt(document.getElementById('val86').value);
+document.getElementById('total4').value = sum;
+}
+</script>
+
+<script type="text/javascript">
+function calc7()
+{
+var sum = parseInt(document.getElementById('val17').value) + parseInt(document.getElementById('val27').value) + parseInt(document.getElementById('val37').value) + parseInt(document.getElementById('val47').value)+ parseInt(document.getElementById('val57').value)+ parseInt(document.getElementById('val67').value)+ parseInt(document.getElementById('val77').value) + parseInt(document.getElementById('val87').value);
+document.getElementById('total4').value = sum;
+}
+</script>
+
+
+ <table id="sum_table" style="width=˜100%">
+  <tr>
+    <td><img src="imagens\7wonders1.jpg" width="70%"></img></td>
+    <td> <input type="text" id="j1" value="" size=""/></td>
+    <td> <input type="text" id="j2" value="" size=""/></td>
+    <td> <input type="text" id="j3" value="" size=""/></td>
+    <td> <input type="text" id="j4" value="" size=""/></td>
+    <td> <input type="text" id="j5" value="" size=""/></td>
+    <td> <input type="text" id="j6" value="" size=""/></td>
+    <td> <input type="text" id="j7" value="" size=""/></td>
+       
+  </tr>
+ 
+  <tr> 
+    <td><img src="imagens\7wonders2.jpg" width="70%"></img></td>
+    <td><input onblur="calc1()" type="text" id="val11" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val12" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val13" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val14" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val15" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val16" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val17" value="0"  /></td>
+    
+  </tr>
+  <tr>
+    <td><img src="imagens\7wonders3.jpg" width="70%"></img></td>
+    <td><input onblur="calc1()" type="text" id="val21" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val22" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val23" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val24" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val25" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val26" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val27" value="0"  /></td>
+    
+  </tr>
+  <tr>
+   
+    <td><img src="imagens\7wonders4.jpg" width="70%"></img></td>
+    <td><input onblur="calc1()" type="text" id="val31" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val32" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val33" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val34" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val35" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val36" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val37" value="0"  /></td>
+    
+  </tr>
+  <tr>
+   <tr>
+    <td><img src="imagens\7wonders5.jpg" width="70%"</img></td>
+    <td><input onblur="calc1()" type="text" id="val41" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val42" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val43" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val44" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val45" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val46" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val47" value="0"  /></td>
+    
+   </tr>
+  <tr>
+    <td><img src="imagens\7wonders6.jpg" width="70%"</img></td>
+  
+    <td><input onblur="calc1()" type="text" id="val51" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val52" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val53" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val54" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val55" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val56" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val57" value="0"  /></td> 
+    
+  </tr>
+  <tr>
+     <td><img src="imagens\7wonders7.jpg" width="70%"</img></td>
+   
+    <td><input onblur="calc1()" type="text" id="val61" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val62" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val63" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val64" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val65" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val66" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val67" value="0"  /></td>
+    
+  </tr>
+   
+   <tr>
+    <td><img src="imagens\7wonders8.jpg" width="70%"</img></td>
+    <td><input onblur="calc1()" type="text" id="val71" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val72" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val73" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val74" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val75" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val76" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val77" value="0"  /></td>
+    
+  </tr>
+  
+     
+   <tr>
+    <td><img src="imagens\7wonders9.jpg" width="70%"</img></td>
+    <td><input onblur="calc1()" type="text" id="val81" value="0"  /></td>
+    <td><input onblur="calc2()" type="text" id="val82" value="0"  /></td>
+    <td><input onblur="calc3()" type="text" id="val83" value="0"  /></td>
+    <td><input onblur="calc4()" type="text" id="val84" value="0"  /></td>
+    <td><input onblur="calc5()" type="text" id="val85" value="0"  /></td>
+    <td><input onblur="calc6()" type="text" id="val86" value="0"  /></td>
+    <td><input onblur="calc7()" type="text" id="val87" value="0"  /></td>
+    
+  </tr>
+  
+  
+    <tr>
+    <td><img src="imagens\7wonders10.jpg" width="70%"</img></td>
+     <td><input type="text" id="total1" value="" readonly /></td>
+     <td><input type="text" id="total2" value="" readonly /></td>
+     <td><input type="text" id="total3" value="" readonly /></td>
+     <td><input type="text" id="total4" value="" readonly /></td>
+     <td><input type="text" id="total5" value="" readonly /></td>
+     <td><input type="text" id="total6" value="" readonly /></td>
+     <td><input type="text" id="total7" value="" readonly /></td>
+    
+  </tr>
+
+ </table>
+
+</div>
+
+
+
+</body>
+</html>
