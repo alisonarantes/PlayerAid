@@ -6,7 +6,6 @@
         version     = "0.1.2" >
 
     <!-- versionCode is optional and Android only -->
-    <preference name="phonegap-version" value="cli-6.5.0" />
     <description>
         Resumos de regras de jogos de tabuleiro em português do Brasil.
     </description>
